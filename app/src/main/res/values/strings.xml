@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Programming Language INFO</string>
+    <string name="logo">Programming Language INFO Logo</string>
+    <string name="programming_language">Programming Language</string>
+    <string name="language_name">Language Name</string>
+    <string name="language_description">Description</string>
+    <string name="language_release">First Release</string>
+    <string name="language_designed">Designed By</string>
+    <string name="language_developer">Developer</string>
+    <string name="language_website">Website</string>
+    <string name="choose">You choose %s</string>
+    <string name="about">About</string>
+    <string name="developer">Muhammad Fauzi Maulana</string>
+    <string name="student">Mahasiswa</string>
+    <string name="university">Universitas Mercu Buana</string>
+    <string name="email">muhammadfauzi1933@gmail.com</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/space_16"
+    tools:context=".AboutActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/developer_photo"
+        android:layout_width="@dimen/space_220"
+        android:layout_height="@dimen/space_220"
+        android:contentDescription="@string/developer"
+        android:src="@drawable/fauzi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/developer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_16"
+        android:gravity="center"
+        android:text="@string/developer"
+        android:textSize="@dimen/text_20"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/developer_photo"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/developer_job"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/student"
+        android:textSize="@dimen/text_16"
+        app:layout_constraintTop_toBottomOf="@+id/developer_name"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/developer_university"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/university"
+        android:textSize="@dimen/text_16"
+        app:layout_constraintTop_toBottomOf="@+id/developer_job"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/email"
+        android:textSize="@dimen/text_16"
+        app:layout_constraintTop_toBottomOf="@+id/developer_university"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
